@@ -1,28 +1,38 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <header class="header">
+      <h1>
+        Maria Efremova
+      </h1>
+      <p>Front-end Developer</p>
+    </header>
+    <section class="container">
+      <div class="card">
+        <h1>
+          Maria Efremova
+        </h1>
+        <p>Front-end Developer</p>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__copyright">
+        <p class="footer__copyright-item">
+          &copy;
+          {{ new Date().getFullYear() }}
+          Maria Efremova
+        </p>
+      </div>
+    </footer>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
-
 export default {
   name: 'App',
-  components: {
-    HelloWorld,
-  },
 };
 </script>
 
 <style lang="less">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  @import "./less/global.less";
+  @import "./less/footer.less";
 </style>
