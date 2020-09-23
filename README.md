@@ -1,24 +1,19 @@
-# maria-tyan.github.io
+# Maria Efremova
+## Front-end Developer
 
-## Project setup
 ```
-npm install
-```
+I'm FrontEnd Developer with 4+ years of experience with modern JavaScript and with VueJS applications.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+I have knowledge and experience working in Front-end as well as Back-end.
+Also, I skilled in writing styles with pre-processors and methodologies (Less, SCSS, Stylus and BEM methodology), having good understanding of UX and accessibility and knowledge of FrontEnd toolset (WebPack, Gulp, Babel, etc.)
 
-### Compiles and minifies for production
-```
-npm run build
+My experience includes work with cross-browser development, build architectures for projects and enlivening sites with animations.
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+### P.S.
+```
+Beautiful Web Page for myself is coming soon!
+```
