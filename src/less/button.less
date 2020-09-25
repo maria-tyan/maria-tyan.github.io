@@ -3,9 +3,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 4px solid white;
+  border: 4px solid @color__marigold;
   background-color: transparent;
-  color: white;
+  color: @color__marigold;
   width: 200px;
   height: 40px;
   border-radius: 10px;
@@ -14,6 +14,7 @@
   outline: none;
   cursor: pointer;
   transition: all .5 ease-in;
+  overflow: hidden;
 
   &::before {
     content: '';
@@ -23,7 +24,7 @@
     left: -100%;
     width: 100%;
     height: 100%;
-    background-color: wheat;
+    background-color: @color__marigold;
     transition: all .5 ease-in;
   }
 }

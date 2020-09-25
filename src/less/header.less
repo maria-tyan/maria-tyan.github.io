@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  position: fixed;
+  width: 100vw;
+  height: 100px;
+  justify-content: center;
+
+  &__container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    text-align: left;
+  }
+
+  &__title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+
+    &::before {
+      content: '';
+      width: 12px;
+      height: 12px;
+      margin-right: 10px;
+      display: block;
+      background-color: @color__marigold;
+    }
+  }
+
+  &__subtitle {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0 0 0 10px;
+    padding: 0;
+    line-height: 24px;
+  }
+}
