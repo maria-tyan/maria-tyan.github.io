@@ -4,6 +4,7 @@
   width: 100vw;
   height: 100px;
   justify-content: center;
+  align-items: center;
   background-color: white;
   z-index: 2;
   box-shadow: 0 20px 35px 0 rgba(@color__space, 0.2);
@@ -43,5 +44,27 @@
     margin: 0 0 0 10px;
     padding: 0;
     line-height: 24px;
+  }
+}
+
+.nav {
+  padding: 0 18px;
+
+  &__item {
+    text-decoration: none;
+    color: @color__space;
+    padding: 0 18px;
+    line-height: 24px;
+    cursor: pointer;
+    transition: all .5s;
+
+    &.router-link-exact-active {
+      font-weight: 700;
+    }
+
+    &:hover {
+      color: @color__tangerine;
+    }
+
   }
 }
